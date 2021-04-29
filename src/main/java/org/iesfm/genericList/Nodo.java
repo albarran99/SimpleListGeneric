@@ -11,6 +11,34 @@ public class Nodo<T> {
         this.next = next;
     }
 
+    public Nodo(T value) {
+        this.value = value;
+    }
+
+    public T get(int i) {
+        if (i == 0) {
+            return value;
+        } else {
+            return next.get(i - 1);
+        }
+    }
+
+    public int count(int size) {
+        if(next == null) {
+            return size + 1;
+        }else {
+            return next.count(size +1);
+        }
+    }
+
+    public void add(T value) {
+        if (next == null) {
+            next = new Nodo<>(value);
+        } else {
+            next.add(value);
+        }
+    }
+
     public T getValue() {
         return value;
     }
