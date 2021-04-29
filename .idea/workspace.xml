@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aea1c001-d1db-48f8-a906-a9c208be6521" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/iesfm/genericList/ListaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleListGeneric.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesfm/genericList/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesfm/genericList/Lista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesfm/genericList/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesfm/genericList/Lista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/iesfm/genericList/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesfm/genericList/Nodo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesfm/genericList/ListaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesfm/genericList/ListaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/iesfm/genericList/Lista.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/iesfm/genericList/Lista.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/iesfm/genericList/ListaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/iesfm/genericList/ListaTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
       <recent name="org.iesfm.genericList" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ListaTest">
+  <component name="RunManager" selected="JUnit.ListaTest.removeHead">
     <configuration name="ListaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimpleListGeneric" />
       <extension name="coverage">
@@ -91,8 +90,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ListaTest.removeHead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleListGeneric" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iesfm.genericList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iesfm.genericList" />
+      <option name="MAIN_CLASS_NAME" value="org.iesfm.genericList.ListaTest" />
+      <option name="METHOD_NAME" value="removeHead" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListaTest.removeLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleListGeneric" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iesfm.genericList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iesfm.genericList" />
+      <option name="MAIN_CLASS_NAME" value="org.iesfm.genericList.ListaTest" />
+      <option name="METHOD_NAME" value="removeLast" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ListaTest.removeHead" />
+        <item itemvalue="JUnit.ListaTest.removeLast" />
         <item itemvalue="JUnit.ListaTest" />
         <item itemvalue="JUnit.ListaTest.addNotEmptytest" />
         <item itemvalue="JUnit.ListaTest.ListaTest" />

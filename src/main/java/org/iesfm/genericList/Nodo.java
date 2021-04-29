@@ -24,10 +24,10 @@ public class Nodo<T> {
     }
 
     public int count(int size) {
-        if(next == null) {
+        if (next == null) {
             return size + 1;
-        }else {
-            return next.count(size +1);
+        } else {
+            return next.count(size + 1);
         }
     }
 
@@ -36,6 +36,14 @@ public class Nodo<T> {
             next = new Nodo<>(value);
         } else {
             next.add(value);
+        }
+    }
+
+    public void removeLast() {
+        if (next.getNext() == null) {
+            next = null;
+        }else {
+            getNext().removeLast();
         }
     }
 

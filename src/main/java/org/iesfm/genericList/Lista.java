@@ -12,6 +12,22 @@ public class Lista<T> {
     public Lista() {
     }
 
+    public void removeHead() {
+        if (head != null) {
+            head = head.getNext();
+        }
+    }
+
+    public void removeLast() {
+        if (head != null) {
+            if (head.getNext() == null) {
+                head = null;
+            } else {
+                head.removeLast();
+            }
+        }
+    }
+
     public void add(T value) {
         if (head == null) {
             head = new Nodo<>(value);
@@ -30,9 +46,9 @@ public class Lista<T> {
     }
 
     public int size() {
-        if(head == null) {
+        if (head == null) {
             return 0;
-        }else {
+        } else {
             return head.count(0);
         }
     }
@@ -40,7 +56,7 @@ public class Lista<T> {
     public int sizeWithBucleWhile() {
         Nodo<T> n = head;
         int size = 0;
-        while(n != null) {
+        while (n != null) {
             size++;
 
             n = n.getNext();
